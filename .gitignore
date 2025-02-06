@@ -1,1 +1,37 @@
 .venv
+# Ignorar arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignorar dependências de pacotes gerenciados por gerenciadores de pacotes
+/node_modules/
+/venv/
+/.env
+*.log
+
+# Ignorar arquivos de compilação
+/dist/
+/build/
+/*.class
+/*.o
+/*.so
+
+# Ignorar arquivos de configuração locais
+/.vscode/
+/.idea/
+/*.iml
+
+# Ignorar dependências de ambiente Python
+*.egg
+*.egg-info/
+__pycache__/
+*.pyc
+
+# Ignorar configurações do editor de código
+*.swp
+*.swo
+*.sublime-workspace
+
+# Ignorar arquivos de banco de dados locais
+*.sqlite3
+*.db
